@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/slogo.PNG">
+</head>
+
+<!-- Checkpoint 1 -->
+<body>
+    <!-- Header avec navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#acceuil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bannière -->
+    <div class="baner">
+        <h1>Bienvenue à mon coin de café </h1> 
+        <p><strong>« Une tasse de café le matin ; le début parfait pour une journée pleine de rêves à réaliser.»</strong></p>
+    </div>
+
+    <!-- Vidéo de présentation -->
+    <section id="video">
+        <video controls width="1000">
+            <source src="videos/Cup of Coffee _ Short film.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+    </section>
+
+    <!-- À propos de nous -->
+    <section id="about">
+        <h2>À propos de nous</h2>
+        <div class="about_container">
+            <div class="about_row">
+                <div class="about_image">
+                    <img src="assets/a-propos-de-nous.png" alt="Tasse à café">
+                </div>
+                <div class="about_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex quas consectetur vitae adipisci nulla unde ipsam, illum placeat doloribus accusamus earum soluta officia tenetur itaque tempora suscipit possimus exercitationem!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nos services -->
+    <section id="services">
+        <h2>Nos services</h2>
+        <div class="about_row">
+            <div class="about_image_service">
+                <img src="assets/servicecoffee.PNG" alt="Services">
+            </div>
+            <div class="about_text_service">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem et at doloremque accusamus, eligendi est expedita praesentium consequatur facilis. Qui quo accusamus maiores quidem nesciunt officia, numquam velit deleniti voluptatum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv">
+        <h2>CV</h2>
+        <div class="cv_container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Employés</th>
+                        <th>Poste</th>
+                        <th>Profil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nouioua Achouak</td>
+                        <td>Développeur Web</td>
+                        <td>Data Science/software Developper</td>
+                    </tr>
+                    <tr>
+                        <td>Amira bousri</td>
+                        <td>Cadre Comercial</td>
+                        <td>E-Commerce</td>
+                    </tr>
+                    <tr>
+                        <td>Hana Mrg</td>
+                        <td>Auditeur</td>
+                        <td>Audit et Management</td>
+                    </tr>
+                    <tr>
+                        <td>Nino YH</td>
+                        <td>Sofware</td>
+                        <td>Informatique</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form class="container">
+            <div class="form-grp">
+                <label for="nom">Nom Complet:</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div class="form-grp">
+                <label for="email">@Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-grp">
+                <label for="Numero">Numéro de téléphone:</label>
+                <input type="tel" id="Numero" name="Numero de telephone">
+            </div>
+            <div class="form-grp">
+                <label for="mdp">Mot de passe:</label>
+                <input type="password" id="mdp" name="Mot de passe">
+            </div>
+            <div class="form-grp c">
+                <label for="check">Sexe:</label>
+                <input type="radio" id="radio1" name="sexe" value="femme">
+                <label for="radio1">Femme</label>
+                <input type="radio" id="radio2" name="sexe" value="homme">
+                <label for="radio2">Homme</label>
+            </div>
+            <div class="form-grp">
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" cols="80" rows="6"></textarea>
+            </div>
+            <div class="send">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Simple Layout. Tous les droits réservés</p>
+    </footer>
+</body>
+</html>
+
